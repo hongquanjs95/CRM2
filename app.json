@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "CRM",
+    "version": "0.0.1",
+    "description": "An empty new project",
+    "icon": "./assets/images/logo-2.png",
+    "ios": {
+      "bundleIdentifier": "org.paracel.crm",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "org.paracel.crm"
+    },
+    "sdkVersion": "25.0.0",
+    "loading": {
+      "backgroundColor": "#EA2027",
+      "hideExponentText": false,
+      "icon": "./assets/icons/logo.png"
+    },
+    "splash": {
+        "backgroundColor": "#EA2027",
+        "image": "./assets/images/bg_screen8.png",
+        "icon": "./assets/icons/logo.png",
+        "resizeMode": "cover"
+    },
+    "orientation": "portrait",
+    "packagerOpts": {
+        "assetExts": [
+            "ttf",
+            "mp4"
+        ]
+    },
+    "androidStatusBarColor": "#EA2027",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#EA2027"
+    }
+  }
+}
